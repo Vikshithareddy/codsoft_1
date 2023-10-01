@@ -1,0 +1,73 @@
+<hmtl>
+    <head>
+        <meta name="viewport" content="width=device-width intial-scale=1.0">
+        <style>
+            .container
+            {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                grid-template-rows: 20% 60% 20%;
+                grid-template-areas: "h h" "n ar" "f f";
+                height: 100%;
+                padding: 10px;
+            }
+            header
+            {
+                
+                grid-area: h;
+                background-color: beige;
+                font-size: 2vw;
+                padding: 10px;
+            }
+            nav
+            {
+                grid-area:n;
+                background-color: chocolate;
+                font-size: 1.5vw;
+                height: 100%;
+                padding: 15px;
+            }
+            article
+            {
+                grid-area:ar;
+                background-color: crimson;
+                text-align:center;
+                font-size: 1vw;
+            }
+            footer
+            {
+                grid-area: f;
+                background-color: darkgreen;
+                text-align: center;
+                font-size: 1vw;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="images\logo.jpg" align="left" wdith="100%" height="100%">
+                <h1 align="center"> E-Shoppy</h1>
+            </header>
+            <nav>
+                <ul type="square">
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="login2.html" target="_blank">Login</a></li>
+                    <li> <a href="registrationform1.html" target="_blank">Register</a></li>
+                    <li> <a href="catalog.html" target="-blank">Catalogue</a></li>
+                    <li> <a href="cart.html" target="-blank">Cart</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h2 align="center"> WelCome to E-Shoppy</h2>
+                <img src="images\10.jpg" align="center" width="50%" height="50%">
+            </article>
+            <footer>
+                <h2>@copyright 2022</h2>
+                <h2> Contact us:EShoppy@gmail.com</h2>
+                <a href="mailto:EShoppy@gmail.com">Send mail</a>
+            </footer>
+        </div>
+    </body>
+</hmtl>
